@@ -92,6 +92,8 @@ h3 {
     border-right: none;
 }
 
+
+
 .box {
     float: left;
     width: 42.5%;
@@ -216,13 +218,29 @@ p {
 }
 
 .offerings {
-  margin-top: 100px;
-  height: 50%;
-  width: 25%;
+  margin-top: 85px;
+  height: 30%;
+  width: 30%;
   display: inline-block;
   border: 1px solid black;
- 
+   border-radius: 10%;
+  background-color: #0099ff;
+   }
+  
+.offerings_header {
+color: white;
+font-size: 50px;
+
+ }
+
+
+.offerings_list {
+
+  padding-top: 100px;
+  font-size: 36px;
+
 }
+
 
 li {
   text-align: left;
@@ -232,9 +250,25 @@ li {
 height: 100vh;
 }
 
+.side_by_side_contact {
+  display: inline-block;
+  
+  width: 30%;
+margin-left: 110px;
+margin-right: 110px;
+margin-top: 50px;
+
+  
+}
+
+.contact_1 {
 
 
+}
 
+.contact_2 {
+
+}
 
 
 .container {
@@ -250,6 +284,7 @@ height: 100vh;
   background:#F9F9F9;
   padding:25px;
   margin:50px 0;
+  
 }
 
 #contact h3 {
