@@ -528,4 +528,120 @@ a:hover {
     color: #0099ff;
 }
 
+/*RESPONSIVE:*/
+
+
+
+/*Desktop*/
+
+
+/*Laptop*/
+
+
+/*Laptop When Minimize*/
+
+
+
+
+/*iPhone 6*/ /*iPhone 7*//*iPhone 6 Plus*//*iPhone5*/
+
+
+@media (min-width:375px) and (orientation:portrait){
+body {
+  width: 127%;
+}
+.about {
+height: 55vh;
+}
+
+.section {
+  height: 58vh;
+}
+ .logo_column_1 {
+    margin-left: 80px;
+  }
+
+.logo_column_2{
+ margin-left: 683px;
+  }
+
+.offerings {
+  height: 20%;
+
+}
+
+.offerings_list {
+  padding-top: 70px;
+
+}
+
+.rikin-photo {
+  
+    height: 500px;
+ margin-right: 40px;
+}
+.side_by_side_contact {
+  display: inline-block;
+  
+  width: 30%;
+
+margin-right: -17px;
+margin-top: 30px;
+
+}
+
+.contact_1 {
+
+
+margin-right:10px;
+margin-bottom: 50px;
+
+}
+
+.partnerships {
+
+  font-size: 23px;
+margin-top: 115px;
+
+}
+
+}
+
+
+
+
+
+/*iPad*/
+@media (min-width:768px) and (orientation:portrait){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
