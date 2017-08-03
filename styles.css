@@ -534,45 +534,77 @@ a:hover {
 
 
 /*Laptop*/
+/*macbook pro 15:*/
+@media (min-width:1025px) and (max-width: 1280px) {
 
-
-/*Laptop When Minimize*/
-/*(min-width:1161px) */
-
-
-@media (min-width: 810px){
-
-/*.logo_column_1 {
-width: 20%;
-
-
-margin-left: 262px;
-
+/*@media only screen 
+   and (max-width : 800px) 
+   and (max-height : 1280px) {*/
+   
+body {
 
 }
-
+.logo_column_1 {
+    margin-left: 182px;
+  }
 
 .logo_column_2{
-  margin-top: -659px;
- width: 20%;
- margin-left: 783px;
+ margin-left: 703px
+  }
+.partnerships {
+
+  font-size: 23px;
+margin-top: 8px;
+
+}
+.RikinBio {
+  font-size: 46px;
+  padding-top: 30px;
+  margin-left: 33px;
+  margin-top: 5px;
+
+ 
 }
 
-.a_collage, .b_collage, .c_collage, .d_collage {
-  height: 260px;
+.rikin-photo {
+    
+    height: 470px;
+   
+    margin-top: 40px;
+    margin-right: 42px;
+
+
 }
 
-.e_collage, .f_collage{
-height: 130px;
+blockquote {
+line-height: 1.20;
+
 }
 
-.e_row {
-  margin-left: -388px;
+.side_by_side_contact {
+  display: inline-block;
+  
+  width: 30%;
+
+/*margin-right: -17px;
+*/margin-top: 10px;
+
+
 }
 
-.f_row {
-  margin-left: 0px;
+.contact_title {
+  padding-bottom: 40px;
 }
+
+.contact_title_2{
+  padding-bottom: 23px;
+}
+
+
+}
+
+
+/*Macbook Air Laptop When Minimize*/
 
 @media (min-width: 1199px){
 
@@ -583,7 +615,7 @@ width: 20%;
 margin-left: 262px;
 
 
-}*/
+}
 
 
 .logo_column_2{
@@ -628,8 +660,8 @@ color: #002060;
   margin-right: 120px;
   padding-top: 60px;
   margin-left: 55px;
-   height: 100px;
-  /*width: 60%;*/
+  height: 100px;
+ /* width: 60%;*/
   text-align: left;
   margin-top: -28px;
   color: #002060;
@@ -649,79 +681,10 @@ color: #002060;
 
 }
 
-@media (min-width:1025px) and (max-width: 1280px) {
-
-body {
-
-}
-.logo_column_1 {
-    margin-left: 80px;
-  }
-
-.logo_column_2{
- margin-left: 683px;
-  }
-.partnerships {
-
-  font-size: 23px;
-margin-top: 8px;
-
-}
-.RikinBio {
-  font-size: 46px;
-  padding-top: 30px;
-  margin-left: 33px;
-  margin-top: 5px;
-
- 
-}
-
-.rikin-photo {
-    
-    height: 470px;
-   
-    margin-top: 40px;
-    margin-right: 42px;
-
-
-}
-
-blockquote {
-line-height: 1.25;
-
-}
-
-.side_by_side_contact {
-  display: inline-block;
-  
-  width: 30%;
-
-/*margin-right: -17px;*/
-margin-top: 10px;
-
-
-}
-
-.contact_title {
-  padding-bottom: 40px;
-}
-
-.contact_title_2{
-  padding-bottom: 23px;
-}
-
-
-}
 
 
 
-
-
-
-
-
-
-/*iPhone 6 /*iPhone 7*//*iPhone 6 Plus*//*iPhone5*/
+/*iPhone 6*/ /*iPhone 7*//*iPhone 6 Plus*//*iPhone5*/
 
 
 @media (min-width:375px) and (orientation:portrait){
@@ -842,8 +805,6 @@ top: -15px;
   padding-top: 30px;
   margin-left: 36px;
   margin-top: 5px;
-
- 
 }
 
 .rikin-photo {
@@ -877,4 +838,5 @@ margin-top: -40px;
 
 }
 }
+
 
