@@ -614,7 +614,90 @@ margin-top: 115px;
 /*iPad*/
 @media (min-width:768px) and (orientation:portrait){
 
+.partnerships {
 
+  font-size: 23px;
+margin-top: 24px;
+
+}
+ 
+ .logo_column_1 {
+  margin-left: 162px;
+ }
+
+.logo_column_2{
+ margin-left: 683px;
+ margin-top: -660px;
+
+  }
+
+.a_collage, .b_collage, .c_collage, .d_collage {
+  height: 260px;
+}
+
+.e_collage, .f_collage{
+height: 130px;
+}
+
+.e_row {
+  margin-left: -390px;
+}
+
+.testimonials {
+  margin-top: -10px;
+}
+
+blockquote {
+line-height: 1.25;
+
+}
+
+blockquote:before {
+
+left: -20px;
+top: -15px;
+
+}
+
+.RikinBio {
+  font-size: 43px;
+  padding-top: 30px;
+  margin-left: 36px;
+  margin-top: 5px;
+
+ 
+}
+
+.rikin-photo {
+    
+    height: 470px;
+   
+    margin-top: 40px;
+    margin-right: 35px;
+
+
+}
+
+.offerings {
+  height: 25%;
+
+}
+
+.offerings_list {
+  padding-top: 50px;
+
+}
+
+
+.side_by_side_contact {
+  display: inline-block;
+  
+  width: 30%;
+
+margin-right: -30px;
+margin-top: -40px;
+
+}
 }
 
 
