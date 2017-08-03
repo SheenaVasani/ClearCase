@@ -293,31 +293,31 @@
     
     <div class="container">  
 
-  <form id="contact" action="mailto:rikin@clearca.se" method="post">
+ <form id="contact" action="mailto:rikin@clearca.se" method="post">
     
       <fieldset>
-      <input placeholder="Your Name" type="text" tabindex="1">
+      <input placeholder="Your Name" type="text" name = "Name" tabindex="1">
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input placeholder="Your Email Address" type="email" tabindex="2" name ="Emaill_Address" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" name = "Phone_Number" required>
     </fieldset>
      <fieldset>
-      <input placeholder="Location Of The Event You Attended" type="text" tabindex="4" required>
+      <input placeholder="Location Of The Event You Attended" type="text" tabindex="4" name = "Location_Event_Attended" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Date Attended The Event" type="text" tabindex="4" required>
+      <input placeholder="Date Attended The Event" type="text" tabindex="4" name = "Date_Attended_Event" required>
     </fieldset>
     <fieldset class="contact_one_options">
  <label class="label_contact_one">What Are You Looking For?</label><br> 
      <div class ="space"></div>
-  <input type="radio" name="options" value="InterviewCoaching" checked> Interview Coaching<br>
-  <input type="radio" name="options" value="CareerSupport"> Career/Professional Support<br>
-  <input type="radio" name="options" value="IndividualSupport"> Individual Support<br>
-  <input type="radio" name="options" value="InterviewPracticePartner"> An Interview Practice Partner<br>
-    <input type="radio" name="options" value="Other"> Other <br>
+  <input type="radio" name="They_Want" value="InterviewCoaching" checked> Interview Coaching<br>
+  <input type="radio" name="They_Want" value="Career/Professional Support"> Career/Professional Support<br>
+  <input type="radio" name="They_Want" value="Individual Support"> Individual Support<br>
+  <input type="radio" name="They_Want" value="Interview Practice Partner"> An Interview Practice Partner<br>
+    <input type="radio" name="They_Want" value="Other"> Other <br>
             <!--  <select id = "myList">
                <option value = "1">Interview Coaching</option>
                <option value = "2">Career/Professional Support</option>
@@ -326,7 +326,7 @@
              </select> -->
              </fieldset>
     <fieldset>
-      <textarea placeholder="Include Any Additional Notes Here..." tabindex="6" required></textarea>
+      <textarea placeholder="Include Any Additional Notes Here..." tabindex="6" name = "Additional_Notes" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
@@ -358,31 +358,32 @@
     
     
      <fieldset>
-      <input placeholder="Your Name" type="text" tabindex="1">
+      <input placeholder="Your Name" type="text" tabindex="1" name = "Name">
     </fieldset>
     <fieldset>
-      <input placeholder="Organization" type="text" tabindex="2" required>
+      <input placeholder="Organization" type="text" tabindex="2" name = "Organization" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Email Address" type="email" tabindex="2" required>
+      <input placeholder="Your Email Address" type="email" tabindex="2" name = "Email_Address" required>
     </fieldset>
     <fieldset>
-      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+      <input placeholder="Your Phone Number" type="tel" tabindex="3" name = "Phone_Number" required>
     </fieldset>
      <fieldset>
-      <input placeholder="How You Heard About Us" type="text" tabindex="4" required>
+      <input placeholder="How You Heard About Us" type="text" tabindex="4" name = "How_They_Heard_About_Us" required>
     </fieldset>
     <fieldset class="contact_one_options">
+
  <label class="label_contact_one">What Kind Of Support Are You Interested In?</label><br> 
      <div class ="space"></div>
-  <input type="radio" name="options" value="Academic" checked> Group Training (Academic) <br>
-  <input type="radio" name="options" value="Corporate"> Group Training (Corporate)<br>
-  <input type="radio" name="options" value="IndividualSupportCoaching"> Individual Support (Personal/Life Coaching)<br>
-  <input type="radio" name="options" value="Other"> Other <br>
+  <input type="radio" name="They_Want" value="Group Training (Academic)" checked> Group Training (Academic) <br>
+  <input type="radio" name="They_Want" value="Group Training (Corporate)"> Group Training (Corporate)<br>
+  <input type="radio" name="They_Want" value="Individual Support (Personal/Life Coaching"> Individual Support (Personal/Life Coaching)<br>
+  <input type="radio" name="They_Want" value="Other"> Other <br>
            
              </fieldset>
     <fieldset>
-      <textarea placeholder="Include Any Additional Notes Here..." tabindex="5" required></textarea>
+      <textarea placeholder="Include Any Additional Notes Here..." tabindex="5" name = "Additional_Notes" required></textarea>
     </fieldset>
     <fieldset>
       <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
