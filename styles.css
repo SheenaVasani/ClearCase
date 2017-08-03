@@ -215,7 +215,10 @@ p {
   padding-right: 40px;
 }
 
-
+.full_logo {
+  text-align: center;
+ /* margin-left: 60px;*/
+}
 .side_by_side_collage {
 
 /*  display: inline-block;
@@ -544,13 +547,13 @@ a:hover {
 body {
 
 }
-.logo_column_1 {
+/*.logo_column_1 {
     margin-left: 182px;
   }
 
 .logo_column_2{
  margin-left: 703px
-  }
+  }*/
 .partnerships {
 
   font-size: 23px;
@@ -838,5 +841,4 @@ margin-top: -40px;
 
 }
 }
-
 
