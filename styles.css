@@ -1,5 +1,7 @@
 
-body {
+
+
+  body {
   font-family: 'Walkway Bold', sans-serif;
   margin: 0;
   width: 100%;
@@ -181,7 +183,7 @@ p {
 .navlinks {
   display: inline-block;
   font-size: 16px;
-  width: 150px;
+  width: 100px;
   font-weight: bold;
   margin-top: 30px;
   padding-top: 8px;
@@ -563,21 +565,10 @@ cite {
 
 }
 
-/*@media (max-width: 1313) and (min-width: 1281) {
-body {
-  background-color: blue;
-}
+
 
 
 }
-
-@media (max-width: 1121) and (min-width: 452); {
-body {
-  background-color: blue;
-}
-
-
-}*/
 /*macbook pro 15: */
 @media (min-height: 800px) and (max-width: 1280px) {
   /*@media only screen 
@@ -857,3 +848,22 @@ body {
     margin-top: 115px;
   }
 }
+
+@media (max-width: 384) and (min-width: 376) {
+body {
+  background-color: blue;
+}
+
+@media (max-width: 374) and (min-width: 365) {
+body {
+  background-color: blue;
+}
+
+
+}
+
+@media (max-width: 203) and (min-width: 150); {
+body {
+  background-color: blue;
+}
+
