@@ -1,14 +1,20 @@
+@font-face {
+  font-family: 'Walkway_Bold';
+  src: url('Walkway_Bold.ttf') format('truetype');
+}
 
 
 
-  body {
-  font-family: 'Walkway Bold', sans-serif;
+body {
+  font-family: 'Walkway_Bold', sans-serif;
   margin: 0;
   width: 100%;
   border-style: solid;
   border-color: #002060 white white white;
   color: #002060;
 }
+
+
 
 main {
   text-align: center;
@@ -312,7 +318,7 @@ blockquote cite:before {
 }
 
 img.rikin-photo {
-  height: 500px;
+  height: 411px;
  /*height: 60%;*/
   border-style: solid;
   border-color: #002060;
@@ -344,10 +350,10 @@ p.RikinBio {
 .offerings_header {
   color: white;
   font-size: 30px;
-   padding-top: 50px;
-  padding-bottom: 50px;
+   padding-top: 25px;
+  padding-bottom: 25px;
   
-   border: 1px solid black;
+  /* border: 1px solid black;*/
   border-radius: 10px;
   background-color: #0099ff;
   margin-bottom: 5px;
@@ -356,6 +362,7 @@ p.RikinBio {
 .offerings_list {
  
   font-size: 30px;
+  padding-top: 60px;
 }
 
 li {
@@ -539,8 +546,12 @@ img.clearcase {
 }
 
 p.RikinBio {
-  font-size: 35px;
+  font-size: 33px;
   
+}
+
+img.rikin-photo {
+  height: 450px;
 }
 
 img.full_logo {
@@ -789,6 +800,11 @@ cite {
     margin-top: -40px;
   }
 }
+/*
+@media (max-width: 631)  {
+.navlink{
+  width: 57px;
+}*/
 
 /*iPhone 6*/ /*iPhone 7*/ /*iPhone 6 Plus*/ /*iPhone5*/
 
@@ -822,11 +838,15 @@ cite {
   }
 
 
-
+/*p.RikinBio {
+  font-size: 32px;
+}
+*/
   img.rikin-photo {
    
-    height: 500px;
+    height: 300px;
     margin-right: 30px;
+
 
   }
   .side_by_side_contact {
@@ -847,6 +867,24 @@ cite {
     font-size: 23px;
     margin-top: 115px;
   }
+}
+
+@media (max-width: 384) and (min-width: 376) {
+body {
+  background-color: blue;
+}
+
+@media (max-width: 374) and (min-width: 365) {
+body {
+  background-color: blue;
+}
+
+
+}
+
+@media (max-width: 203) and (min-width: 150); {
+body {
+  background-color: blue;
 }
 
 @media (max-width: 384) and (min-width: 376) {
