@@ -190,7 +190,6 @@ p {
   display: inline-block;
   font-size: 16px;
   width: 100px;
-  font-weight: bold;
   margin-top: 30px;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -271,16 +270,110 @@ p {
   margin-top: 160px;
   margin-bottom: 280px;
 
+
 }
+
 
 .quotes {
    font-style: normal;
    text-align: left;
 }
 
+p.quotes1 {
+   font-style: normal;
+   text-align: left;
+   /*margin-top: 100px;*/
+   
+  ]
+}
+
+.quotes2 {
+   font-style: normal;
+   text-align: left;
+   /*margin-top: 100px;*/
+   
+   
+}
+
+.quotes3 {
+  font-style: normal;
+   text-align: left;
+  
+   
+}
+
+.quotes4 {
+  font-style: normal;
+   text-align: left;
+}
+
+.quotes5 {
+   font-style: normal;
+   text-align: left;
+   /*margin-top: 100px;*/
+   
+  
+
+}
+
+.quotes6 {
+  font-style: normal;
+   text-align: left;
+  }
+
+.quotes7 {
+  font-style: normal;
+   text-align: left;
+}
+
+.quotes8 {
+  font-style: normal;
+   text-align: left;
+  
+}
+
+.quotes9 {
+  font-style: normal;
+   text-align: left;
+   
+}
+
+.quotes10 {
+  font-style: normal;
+   text-align: left;
+}
+
+.quotes11 {
+  font-style: normal;
+   text-align: left;
+
+}
+
+.quotes12 {
+  font-style: normal;
+   text-align: left;
+   
+}
+
+span.emphasize {
+  color: #0099ff;
+/*  font-weight:  bold;*/
+}
+
+span.cite {
+  font-style: italic;
+  color: #0099ff;
+  font-size: 18px;
+  margin-top: 10px;
+  float: right;
+}
+
+
 blockquote {
-  height: 100px;
-  width: 25%;
+  vertical-align: top;
+  overflow: hidden;
+  min-height: 100px;
+  width: 35%;
   display: inline-block;
   font-size: 20px;
   
@@ -291,6 +384,29 @@ blockquote {
   position: relative;
   color: #002060;
   text-align: left;
+
+}
+
+.blockquote1 {
+  margin-top: -210px;
+}
+
+.blockquote2 {
+margin-top: -170px;
+
+}
+
+.blockquote3 {
+  margin-top: -40px;
+}
+
+.blockquote4 {
+  margin-top: -90px;
+
+}
+
+.blockquote5 {
+  margin-top: -55px;
 }
 
 blockquote:before {
@@ -299,17 +415,19 @@ blockquote:before {
   content: "\201C";
   font-size: 80px;
   position: absolute;
-  left: -20px;
+  left: -10px;
   top: -20px;
   color: #0099ff;
 }
 
-blockquote cite {
+ blockquote cite {
   color: #0099ff;
-  font-size: 20px;
+  font-size: 18px;
   display: block;
   margin-top: 5px;
   text-align: right;
+
+  
 
 }
 
@@ -317,24 +435,33 @@ blockquote cite:before {
   content: "\2014 \2009";
 }
 
+
 img.rikin-photo {
-  height: 411px;
- /*height: 60%;*/
+  /*height: 411px;*/
+  height: 211px;
+ 
   border-style: solid;
   border-color: #002060;
-  margin-top: 80px;
+  /*margin-top: 80px;*/
+  margin-top: 259px;
+
   margin-right: 20px;
   float: right;
 }
 
 p.RikinBio {
-  font-size: 35px;
+  width: 90%;
+  /*font-size: 35px;*/
+  font-size: 24px;
   margin-right: 120px;
-  padding-top: 80px;
-  margin-left: 25px;
+ /* padding-top: 80px;*/
+ padding-top: 290px;
+  margin-left: 20px;
+  
   height: 100px;
   text-align: left;
   margin-top: 500px;
+
   color: #002060;
 }
 
@@ -347,22 +474,26 @@ p.RikinBio {
  
 }
 
+div.offerings_banner {
+margin-top: 100px;
+}
 .offerings_header {
-  color: white;
-  font-size: 30px;
-   padding-top: 25px;
+  /*color: white;*/
+  /*font-size: 30px*/;
+  /*padding-top: 25px;
   padding-bottom: 25px;
   
   /* border: 1px solid black;*/
-  border-radius: 10px;
-  background-color: #0099ff;
-  margin-bottom: 5px;
+/*  border-radius: 10px;
+*/  /*background-color: #0099ff;*/
+/*  margin-bottom: 5px;
+*/  
 }
 
 .offerings_list {
  
-  font-size: 30px;
-  padding-top: 60px;
+  font-size: 20px;
+  padding-top: 20px;
 }
 
 li {
@@ -687,8 +818,8 @@ cite {
   }
 
   blockquote {
-    height: 100px;
-    width: 25%;
+    
+  /*  width: 25%;
     display: inline-block;
     font-size: 20px;
     font-style: italic;
@@ -697,7 +828,7 @@ cite {
     padding: 0.35em 40px;
     line-height: 1.25;
     position: relative;
-    color: #002060;
+    color: #002060;*/
   }
 
   .RikinBio {
@@ -871,12 +1002,12 @@ cite {
 
 @media (max-width: 384) and (min-width: 376) {
 body {
-  background-color: blue;
+  
 }
 
 @media (max-width: 374) and (min-width: 365) {
 body {
-  background-color: blue;
+ 
 }
 
 
@@ -884,17 +1015,17 @@ body {
 
 @media (max-width: 203) and (min-width: 150); {
 body {
-  background-color: blue;
+ 
 }
 
 @media (max-width: 384) and (min-width: 376) {
 body {
-  background-color: blue;
+  
 }
 
 @media (max-width: 374) and (min-width: 365) {
 body {
-  background-color: blue;
+ 
 }
 
 
@@ -902,6 +1033,5 @@ body {
 
 @media (max-width: 203) and (min-width: 150); {
 body {
-  background-color: blue;
+ 
 }
-
