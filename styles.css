@@ -494,6 +494,7 @@ margin-top: 100px;
  
   font-size: 20px;
   padding-top: 20px;
+  
 }
 
 li {
@@ -853,7 +854,9 @@ cite {
   }
 }
 
-
+.offerings_header {
+  
+}
 }
 
 /*iPad*/
@@ -965,17 +968,21 @@ cite {
 
   div.offerings_list {
 
-    padding-top: 130px;
+   
   }
-
-
-/*p.RikinBio {
-  font-size: 32px;
+.offerings_header {
+    
+    margin-left: -50px;
+    width: 240%;
 }
-*/
+
+p.RikinBio {
+  padding-top: 275px;
+}
+
   img.rikin-photo {
    
-    height: 300px;
+    height: 211px;
     margin-right: 30px;
 
 
